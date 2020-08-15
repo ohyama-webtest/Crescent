@@ -1,0 +1,60 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: "Comic Sans MS";
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+nav .header {
+  font-family: "Caveat", cursive;
+  font-size: 2em;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid black;
+}
+
+.top {
+  background-image: url(./image/andrew-neel-fqoYO9MjLLQ-unsplash.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.top .text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.top .text h1 {
+  font-size: 7em;
+  top: 55%;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Caveat", cursive;
+}
+.top .text p {
+  font-size: 1.5em;
+}
+
+.about-title p {
+  font-size: 1.5em;
+}
