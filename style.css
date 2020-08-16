@@ -63,7 +63,8 @@ nav .header {
 @media only screen and (max-width: 767px) {
   .top {
     background-image: url(./image/fashion-605508_1280.jpg);
-    background-size: auto;
+    background-size: auto 100%;
     background-attachment: fixed;
+    width: 100vw;
   }
 }
