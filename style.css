@@ -33,6 +33,7 @@ nav .header {
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
   position: relative;
@@ -62,6 +63,7 @@ nav .header {
 @media only screen and (max-width: 767px) {
   .top {
     background-image: url(./image/fashion-605508_1280.jpg);
-    background-size: cover;
+    background-size: auto;
+    background-attachment: fixed;
   }
 }
