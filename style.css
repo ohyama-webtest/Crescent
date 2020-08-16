@@ -58,3 +58,10 @@ nav .header {
 .about-title p {
   font-size: 1.5em;
 }
+
+@media only screen and (max-width: 767px) {
+  .top {
+    background-image: url(./image/fashion-605508_1280.jpg);
+    background-size: cover;
+  }
+}
